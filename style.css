@@ -278,7 +278,7 @@ footer p {
     }
 
     .text_con2 h3 {
-        font-size: 25px;
+        font-size: 20px;
         color: rgb(64, 79, 255);
     }
 
@@ -344,8 +344,8 @@ footer p {
     }
 
     footer p {
-        padding: 20px;
-        margin-bottom: 12px;
+        padding: 5px;
+
     }
 
     .footer_icon a {
@@ -357,7 +357,7 @@ footer p {
 
     .footer1_con {
         padding: 20px 0;
-        margin-bottom: 15px;
+
         width: 800px;
         height: 100%;
 
