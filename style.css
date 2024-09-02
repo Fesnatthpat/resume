@@ -214,9 +214,7 @@ footer p {
 
 }
 
-@media screen and (max-width: 1900px) {
-    
-}
+@media screen and (max-width: 1900px) {}
 
 
 @media screen and (max-width: 430px) {
@@ -231,14 +229,14 @@ footer p {
         background: rgb(43, 78, 162);
         width: 800px;
     }
-    
+
     .logo {
         display: flex;
         justify-content: center;
         /* border: 1px solid red; */
-    
+
     }
-    
+
     .logo img {
         /* border: 1px solid red; */
         width: 70px;
@@ -258,7 +256,7 @@ footer p {
         width: 800px;
         margin: 20px auto;
     }
-    
+
     .hero_con1 {
         /* border: 1px solid red; */
         background: white;
@@ -333,7 +331,7 @@ footer p {
     .hero_img_con2 img {
         /* border: 1px solid red; */
         height: 400px;
-    
+
     }
 
     footer {
@@ -342,19 +340,19 @@ footer p {
         width: 800px;
         text-align: center;
         color: white;
-        
+
     }
-    
+
     footer p {
         padding: 20px;
         margin-bottom: 12px;
     }
-    
+
     .footer_icon a {
         font-size: 1rem;
         padding: 0 10px;
         color: white;
-    
+
     }
 
     .footer1_con {
@@ -365,11 +363,19 @@ footer p {
 
 
     }
-    
+
     .img_footer1 img {
         width: 800px;
-        height: 300px; /* รักษาอัตราส่วนของรูปภาพ */
+        height: 300px;
+        /* รักษาอัตราส่วนของรูปภาพ */
         object-fit: cover;
         border-radius: 10px;
+    }
+
+
+    .text_activity {
+        text-decoration: underline;
+        margin-bottom: 15px;
+        margin-left: 25px;
     }
 }
