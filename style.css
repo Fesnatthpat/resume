@@ -224,6 +224,21 @@ footer {
     margin: 0 12px;
 }
 
+@media screen and (max-width:375px) {
+    .hero_footer {}
+
+    .hero_footer img {
+        width: 350px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .grid_item_con {
+        max-width: 300px;
+        /* margin: 0 auto; */
+    }
+}
+
 @media screen and (max-width:425px) {
     .hero_con1 {
         height: 400px;
@@ -249,7 +264,7 @@ footer {
     }
 
     .hero_footer img {
-        width: 400px;
+        width: 370px;
         height: 200px;
         object-fit: cover;
     }
@@ -281,13 +296,17 @@ footer {
         /* border: 1px solid red; */
         padding: 0 5px;
     }
-    
+
     .footer_text p {
         font-size: 12px;
     }
 
     .grid_item_con {
-        max-width: 400px;
-        margin: 0 auto;
+        width: 380px;
+        /* margin: 0 auto; */
+    }
+
+    .items_con {
+
     }
 }
