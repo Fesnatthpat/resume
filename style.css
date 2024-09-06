@@ -224,13 +224,14 @@ footer {
     margin: 0 12px;
 }
 
-@media screen and (max-width:375px) {
-    .hero_footer {}
+@media screen and (max-width:380px) {
+    .hero_footer {
+    }
 
     .hero_footer img {
-        width: 350px;
+        width: 100px;
         height: 200px;
-        object-fit: cover;
+        display: none;
     }
 
     .grid_item_con {
