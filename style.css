@@ -164,7 +164,7 @@ nav {
 
 .items_con {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 20px;
@@ -224,9 +224,6 @@ footer {
     margin: 0 12px;
 }
 
-@media screen and (max-width:375px) {
-    
-}
 
 @media screen and (max-width:425px) {
     .hero_con1 {
@@ -252,9 +249,16 @@ footer {
         display: block;
     }
 
+    .items_con {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+
+    }
+
     .hero_footer img {
         width: 380px;
-        height: 100px;
+        height: 200px;
         object-fit: cover;
     }
 
@@ -291,11 +295,8 @@ footer {
     }
 
     .grid_item_con {
-        width: 300px;
+        width: 380px;
         margin: 0 auto;
     }
 
-    .items_con {
-
-    }
 }
