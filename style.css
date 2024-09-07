@@ -224,13 +224,13 @@ footer {
     margin: 0 12px;
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:820px) {
     .hero_con1 {
         height: 400px;
     }
 
     .hero_con2 {
-        width: 400px;
+        width: 300px;
         row-gap: 20px;
         padding: 20px;
         display: flex;
@@ -250,15 +250,16 @@ footer {
 
     .items_con {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        margin: 20px;
+        /* margin: 0 10px; */
 
     }
 
     .hero_footer img {
-        width: 200px;
+        width: 340px;
         height: 200px;
+
     }
 
     .text_1 {
@@ -289,77 +290,9 @@ footer {
         padding: 0 5px;
     }
 
-    .footer_text p {
-        font-size: 12px;
-    }
-
-}
-
-
-@media screen and (max-width:425px) {
-    .hero_con1 {
-        height: 400px;
-    }
-
-    .hero_con2 {
-        width: 400px;
-        row-gap: 20px;
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .hero_img_con {
-        width: 300px;
-        height: 100vh;
-    }
-
-    .hero_img_con img {
-        width: 300px;
-        height: 200px;
-        display: block;
-    }
-
-    .items_con {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        margin: 20px;
-
-    }
-
-    .hero_footer img {
-        width: 380px;
-        height: 200px;
-
-    }
-
-    .text_1 {
-        /* width: 150px; */
-    }
-
-    .text_1 span {
-        font-size: 15px;
-        color: blueviolet;
-    }
-
-    .text_1 h1 {
-        font-size: 25px;
-        color: rgb(0, 0, 0);
-    }
-
-    .btn_con {
-        display: flex;
-    }
-
-    .btn_con button {
-        padding: 5px 10px;
-        font-size: 8px;
-    }
-
-    .text_1 {
-        /* border: 1px solid red; */
-        padding: 0 5px;
+    .text_grid h1 {
+        font-size: 20px;
+        margin-left: 20px;
     }
 
     .footer_text p {
@@ -367,6 +300,7 @@ footer {
     }
 
     .grid_item_con {
-        margin: 10px;
+        /* margin: 0 10px; */
+        width: 350px;
     }
 }
