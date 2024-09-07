@@ -252,12 +252,12 @@ footer {
     }
 
     .hero_img_con {
-        width: 200px;
+        width: 250px;
         height: 100vh;
     }
 
     .hero_img_con img {
-        width: 200px;
+        width: 250px;
         height: 200px;
         /* display: block; */
     }
